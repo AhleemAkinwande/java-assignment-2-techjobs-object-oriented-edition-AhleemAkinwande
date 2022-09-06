@@ -8,6 +8,7 @@ public class Employer {
     private static int nextId = 1;
     private String value;
 
+    //Each employer instantiated should increment the nextId (by 1)
     public Employer() {
         id = nextId;
         nextId++;
